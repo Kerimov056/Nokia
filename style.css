@@ -231,10 +231,11 @@ button:hover {
     background-color: #003dad;
 }
 
+/* 2ci hisse */
 .boyH {
     width: 100%;
     border: 0;
-    margin-top: 0;
+    margin-top: -72px;
 }
 
 .hisse {
@@ -310,7 +311,7 @@ button:hover {
     font-size: 24px;
 }
 
-.s {
+.s{
     margin-left: 5%;
 }
 
@@ -330,7 +331,7 @@ button:hover {
     height: 50%;
     background-color: rgb(255, 255, 255);
     border-radius: 8px;
-    margin-left: 30px;
+    margin-left: 32px;
 }
 
 .human1_img img {
@@ -620,4 +621,4 @@ li {
 
 
 
-/* basdaki icon ve <  >  bu ikonlar ve bacarsan videonu duzelt */
+/* basdaki icon ve <  >  bu ikonlar ve video duzelt */
