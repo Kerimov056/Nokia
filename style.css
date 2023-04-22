@@ -97,30 +97,41 @@
 .table ul li a {
     color: #005AFF;
 }
+a{
+    text-decoration: none;
+}
+.liwhite li a{
+    color: white !important;
+}
 
-
-
-/* .serv{
-    margin-top: 18px;
-    margin-left: 0;
+.menu li{
+    color: #fff;
+    display: block;
+    float: left;
+    padding: 0;
     position: relative;
-    display: none;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+.menu ul li ul{
     width: 100%;
-    height: 36px;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(78, 78, 247);
+    background-color: #005AFF;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    display: none;
 }
-.serv ul li a{
-    color: white;
+.menu ul li ul li{
+    background-color: #005AFF;
 }
-#sers:hover .se{
-    display: inline-block;
+.menu ul li:hover > ul,ul li ul:hover{
+    visibility: visible;
+    opacity: 1;
+    display: block;
 }
 
-.table ul li:hover{
-    opacity: 1;
-} */
 
 
 /* icon */
@@ -600,3 +611,13 @@ li {
 .finish ul a li {
     color: rgb(32, 29, 29);
 }
+
+
+
+
+
+
+
+
+
+/* basdaki icon ve <  >  bu ikonlar ve bacarsan videonu duzelt */
